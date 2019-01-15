@@ -5,17 +5,17 @@ public class main {
     public static void main(String[]args){
           Scanner input=new Scanner(System.in);
 
-        Animal cat=new Cat();
+        Animal animal=new Cat();
         System.out.println("请输入猫的年龄：");
-        cat.setAge(input.nextInt());
+        animal.setAge(input.nextInt());
         System.out.println("请输入猫的身长：");
-        cat.setSize(input.nextInt());
+        animal.setSize(input.nextInt());
         System.out.println("请输入猫的腿数：");
-        cat.setLegNumber(input.nextInt());
+        animal.setLegNumber(input.nextInt());
         System.out.println("请输入猫的眼睛数：");
-        cat.setEyesNumber(input.nextInt());
+        animal.setEyesNumber(input.nextInt());
         System.out.println("请输入猫的耳朵数：");
-        cat.setEarsNumber(input.nextInt());
+        animal.setEarsNumber(input.nextInt());
 
         Animal tiger=new Tiger();
         System.out.println("请输入老虎的年龄：");
@@ -49,7 +49,7 @@ public class main {
         System.out.println("请输入大雁是否为候鸟：");
         dayan.setMigratorybird(input.next());
 
-        cat.getDescribe();
+        animal.getDescribe();
         tiger.getDescribe();
         duck.getDescribe();
         dayan.getDescribe();
